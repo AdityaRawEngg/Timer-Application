@@ -10,4 +10,4 @@ startTimer, pauseTimer and stopTimer function is used to start, pause and reset 
 
 # Demo 
 
-Live Demo link of this application is : 
+Live Demo link of this application is : https://adityarawengg.github.io/Timer-Application/
