@@ -31,7 +31,8 @@ export const displayTimer = () => {
   const timerBtnDiv = document.createElement("div");
   timerBtnDiv.classList.add("stop-watch-handler");
   const startImg = document.createElement("img");
-  startImg.src = "../../resource/image/play.png";
+  startImg.src =
+    "https://raw.githubusercontent.com/AdityaRawEngg/Timer-Application/main/resource/image/play.png";
   startImg.alt = "Start Button";
   startImg.id = "start";
   startImg.addEventListener("click", (event) => {
@@ -40,7 +41,8 @@ export const displayTimer = () => {
   });
   const pauseImg = document.createElement("img");
   pauseImg.id = "pause";
-  pauseImg.src = "../../resource/image/pause.png";
+  pauseImg.src =
+    "https://raw.githubusercontent.com/AdityaRawEngg/Timer-Application/main/resource/image/pause.png";
   pauseImg.alt = "Pause Button";
   pauseImg.classList.add("hide");
   pauseImg.addEventListener("click", (event) => {
@@ -49,7 +51,8 @@ export const displayTimer = () => {
   });
   const resetImg = document.createElement("img");
   resetImg.id = "reset";
-  resetImg.src = "../../resource/image/stop-button.png";
+  resetImg.src =
+    "https://raw.githubusercontent.com/AdityaRawEngg/Timer-Application/main/resource/image/stop-button.png";
   resetImg.alt = "reset Button";
   resetImg.classList.add("hide");
   resetImg.addEventListener("click", (event) => {
